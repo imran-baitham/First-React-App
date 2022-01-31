@@ -1,0 +1,45 @@
+.expanceItems {
+  background-color: rgb(255, 229, 211);
+  margin-bottom: 1%;
+  width: 99%;
+  height: auto;
+  display: flex;
+  margin: 1% auto;
+}
+.expance__item {
+  display: flex;
+  width: 99%;
+  height: 8vh;
+  align-items: center;
+  justify-content: space-between;
+}
+.div__one {
+  width: 49%;
+  display: flex;
+  padding-left: 2%;
+}
+.div__one h3 {
+  padding-left: 3%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.div__two {
+  width: 49%;
+  text-align: right;
+}
+.expance__price {
+  width: 120px;
+  float: right;
+  padding: 8px 0px;
+  text-align: center;
+  background-color: rgba(127, 0, 245, 0.219);
+  color: black;
+  border: 1px solid rgba(126, 0, 245, 0.473);
+}
+.expance__price:hover {
+  color: white;
+  background-color: rgba(127, 0, 245, 0.644);
+}
+.date__style {
+  display: flex;
+  padding: 2px;
+}
